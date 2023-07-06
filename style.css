@@ -1,0 +1,1761 @@
+/*elimino las configuraciones predeterminas*/
+*{
+    box-sizing: border-box;
+    margin: 2;
+    padding: 0;
+    
+}
+
+/*se guardan los colores que se van a utlizar*/
+:root{
+    --color: #000000; 
+    --color: #c78c19; 
+    --border-color:#088c19;
+    --background: linear-gradient(#FEFEFE, #88888888);
+    --off-white:#daf8f7;
+    --just-white: #bbbb;
+        
+}
+
+/*inicialimos la fuente y font-size*/
+html {
+    font: 62.5%;
+    font-size: 'DM Sans', sans-serif;
+    
+}
+
+
+header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;   
+    height: auto;
+    text-align: center;
+    background:  #F8F9F9 ; 
+ 
+}
+
+
+.header--title-container h2{
+    font-weight: bold;
+    
+}
+
+
+header .header--title-container img{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto; 
+    border-radius: 15px;
+
+}
+
+main p{
+    width: auto;
+    font-size: 1em;
+    font-weight: 280;
+    text-align: center;
+    justify-content: center;
+   
+}
+
+
+
+/*..............................quien soy.............................*/
+
+/*logo sena quien soy*/
+main .logo-sena {
+    
+    position: relative;
+    text-align: end;
+
+}
+
+main  .logo-sena img{
+    width: 5%;
+    
+}
+
+/*container fotos quien soy*/
+main .container-fotos-tiutlo img{
+    width: 300px;
+    height: 300px;
+    
+}
+
+/*titulo quien soy*/
+main .quien-soy-title{
+    text-align: center;
+    color: #27AE35;
+}
+
+/*fotos quien soy*/
+.container-quien-soy-fotos{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    gap: 9px;/*separo las cards*/
+    place-content: center;/*centramos todo el contenido al centro de la pantalla*/
+    width: auto;
+    font-weight: bold;
+    margin-bottom: 30px;
+ 
+}
+
+
+/*...............quien no le ha pasado..........*/
+main .problemas-logo-sena {
+    
+    position: relative;
+    text-align: end;
+
+
+}
+
+main  .problemas-logo-sena img{
+    width: 5%;
+    
+}
+
+/*container  quien no le ha pasado*/
+main .container-quien-ha-pasado img{
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    
+}
+
+
+/*titulo quien no le ha pasado*/
+
+main .quien-ha-pasado-titulo h2{
+    text-align: center;
+    color: #27AE35;
+    
+ 
+}
+
+
+/*fotos quien no le ha pasado*/
+.container-fotos-quien-ha-pasado
+{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    gap: 80px;/*separo las cards*/
+    place-content: center;/*centramos todo el contenido al centro de la pantalla*/
+    width: auto;
+    font-weight: bold;
+    margin-bottom: 60px
+ 
+}
+
+.fotos-quien-ha-pasado{
+    width: 300px;
+    height: 300px;
+   
+    margin-top: -44px
+}
+
+
+/*...................section de clientes y Provedores..........................*/
+
+main .clientes-proveddores-logo-sena {
+    
+    position: relative;
+    text-align: end;
+
+
+}
+
+main  .clientes-proveddores-logo-sena img{
+    width: 5%;
+    
+}
+
+/*container  clientes - proveedores*/
+main .container-clientes-proveedores img{
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    
+}
+
+
+/*titulo clientes - proveedores*/
+
+main .container-clientes-proveedores-titulo h2{
+    text-align: center;
+    color: #27AE35;
+    
+ 
+}
+
+
+/*fotos clientes - proveedores*/
+.container-fotos-cliente-provedores
+{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    gap: 9px;/*separo las cards*/
+    place-content: center;/*centramos todo el contenido al centro de la pantalla*/
+    width: auto;
+    font-weight: bold;
+ 
+}
+
+/*fotos-proveedores*/
+.fotos-clientes-proveedores{
+    width: 300px;
+    height: 300px;
+    
+    margin-top: -44px
+}
+
+
+
+/*...................nuestros servicios..............*/
+
+main .nuestros-servicios-logo-sena {
+    
+    position: relative;
+    text-align: end;
+
+
+}
+
+main  .nuestros-servicios-logo-sena img{
+    width: 5%;
+    
+}
+
+
+
+/*container  nuestros servicios*/
+main .container-nuestros-servicios img{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    
+}
+
+
+/*titulo nuestros servicios*/
+
+main .nuestros-servicios-tiutlo h2{
+    text-align: center;
+    color: #27AE35;
+    
+ 
+}
+
+
+/*iconos nuestros servicios*/
+.conatiner-iconos
+{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    gap: 9px;/*separo las cards*/
+    place-content: center;/*centramos todo el contenido al centro de la pantalla*/
+    width: auto;
+    font-weight: bold;
+    
+    text-align: center;
+ 
+}
+
+.iconos{
+    width: 300px;
+    height: 300px;
+    
+    margin-top: -44px
+}
+
+
+/*.................donde cabe uno caben todos.................*/
+/*logo sena ubicacion*/
+main #caben-todo-logo-sena {
+    
+    position: relative;
+    text-align: end;
+
+
+}
+
+/*logo sena tamaño*/
+
+main #caben-todo-logo-sena img{
+    width: 5%;
+    
+}
+
+
+
+/*container  donde cabe uno caben todos*/
+main .container-cabe-uno-caben-todos img{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    
+}
+
+
+/*titulo donde cabe uno caben todos*/
+
+main .Donde-cabe-uno-caben-todos-titulo h2{
+    text-align: center;
+    color: #27AE35;
+    
+ 
+}
+
+
+/*container fotos donde cabe uno caben toods*/
+.container-fotos-cabe-uno-todos
+{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    gap: 9px;/*separo las cards*/
+    place-content: center;/*centramos todo el contenido al centro de la pantalla*/
+    width: auto;
+    font-weight: bold;
+
+    text-align: center;
+ 
+}
+
+.fotos-cabe-uno-todos{
+    width: 300px;
+    height: 300px;
+    
+    margin-top: -44px
+}
+
+
+/*..............section En-qué-vamos-.......................*/
+
+/*logo sena ubicacicon*/
+main #en-que-vamos-logo-sena {
+    
+    position: relative;
+    text-align: end;
+
+
+}
+
+
+/*logo sena tamaño*/
+
+main #en-que-vamos-logo-sena img{
+    width: 5%;
+    
+}
+
+
+
+/*container  donde cabe uno caben todos*/
+main .container-como-vamos img{
+    width: 249px;
+    height: 350px;
+    margin-top: 50px;
+    
+}
+
+
+/*titulo donde cabe uno caben todos*/
+
+main .En-qué-vamos-titulo h2{
+    text-align: center;
+    color: #27AE35;
+   
+ 
+}
+
+
+/*container fotos donde cabe uno caben toods*/
+.container-pantallazo
+{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    gap: 42px;/*separo las cards*/
+    place-content: center;/*centramos todo el contenido al centro de la pantalla*/
+    width: auto;
+    font-weight: bold;
+   
+    text-align: center;
+ 
+}
+
+.pantallazos{
+    width: 300px;
+    
+    height: auto;
+    margin-top: -44px
+}
+
+
+/*...........los de a lado.........................*/
+
+/*logo sena ubicacicon*/
+main #los-de-lado-logo-sena {
+    
+    position: relative;
+    text-align: end;
+
+
+}
+
+
+/*logo sena tamaño*/
+
+main #los-de-lado-logo-sena img{
+    width: 5%;
+    
+}
+
+
+
+/*container  los de a lado*/
+main .container-Los-del-a-lado-titulo img{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-top: -7px;
+    
+}
+
+
+/*titulo los de a lado*/
+
+main .Los-del-a-lado-titulo h2{
+    text-align: center;
+    color: #27AE35;
+    
+ 
+}
+
+
+/*container los de a lado */
+.container-competencia
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+   
+    place-content: center;
+    width: auto;
+    font-weight: bold;
+   
+    text-align: center;
+ 
+}
+
+/*fotos los de a lado*/
+.competencia{
+    width: 300px;
+    height: 137;
+    margin-top: 32px;
+    margin-bottom: 63px;
+}
+
+
+
+/*...............y como nos conectamos aqui....................................................*/
+
+/*logo sena ubicacicon*/
+main #como-conectamos-logo-sena {
+    
+    position: relative;
+    text-align: end;
+
+
+}
+
+
+/*logo sena tamaño*/
+
+main #como-conectamos-logo-sena img{
+    width: 5%;
+    
+}
+
+
+
+/*container  y como nos conectamos*/
+main .container-Y-cómo-nos-conectamos img{
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    
+}
+
+
+/*titulo y como nos conectamos*/
+
+main .titulo-Y-cómo-nos-conectamos h2{
+    text-align: center;
+    color: #27AE35;
+    
+ 
+}
+
+.container-foto-domi
+{
+    display: flex;
+    
+    grid-template-columns: repeat(auto-fill,300px);
+    gap: 9px;/*separo las cards*/
+    place-content: center;/*centramos todo el contenido al centro de la pantalla*/
+    width: auto;
+    font-weight: bold;
+    margin-bottom: 60px;
+    text-align: center;
+ 
+}
+
+
+
+/*fotos y como nos conectamos*/
+.domicilio-24-horas-yopal img{
+    width: 300px;
+    
+    height: auto;
+    margin-top: -44px
+}
+
+
+/*................las cuentas claras y el chocolate espeso.......................................*/
+
+/*logo sena ubicacicon*/
+main #chocolate-logo-sena {
+    
+    position: relative;
+    text-align: end;
+
+
+}
+
+
+/*logo sena tamaño*/
+
+main #chocolate-logo-sena img{
+    width: 5%;
+    
+}
+
+
+
+/*container  las cuentas claras y choclate espreo*/
+
+
+
+main .container-cuentas-claras-chocolate-espeso img{
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    
+}
+
+
+/*titulo las cuentas claras y choclate espreo*/
+
+main .titulo-cuentas-claras-chocolate-espeso h2{
+    text-align: center;
+    color: #27AE35;
+    
+ 
+}
+
+/*container fotos cuentas las cuentas claras y choclate espreo*/
+.container-foto-cuentas
+{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,317px);
+    gap: 9px;/*separo las cards*/
+    place-content: center;/*centramos todo el contenido al centro de la pantalla*/
+    width: auto;
+    font-weight: bold;
+    
+    text-align: center;
+ 
+}
+
+
+
+/*fotos cuentas-claras-chocolate-espeso*/
+
+
+/*........................compañeros de aventura.........................................*/
+
+
+/*logo sena ubicacicon*/
+main #aventura-logo-sena {
+    
+    position: relative;
+    text-align: end;
+
+
+}
+
+
+/*logo sena tamaño*/
+
+main #aventura-logo-sena img{
+    width: 5%;
+    
+}
+
+
+
+/*container  compañeros de aventura*/
+main .container-Compañeros-de-aventura img{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    
+}
+
+
+/*titulo compañeros de aventura*/
+
+main .titulo-compañeros-aventura h2{
+    text-align: center;
+    color: #27AE35;
+    
+ 
+}
+
+/*container fotos compañeros de aventura*/
+.container-fotos-aventura
+{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    gap: 9px;/*separo las cards*/
+    place-content: center;/*centramos todo el contenido al centro de la pantalla*/
+    width: auto;
+    font-weight: bold;
+    margin-bottom: 60px;
+    text-align: center;
+ 
+}
+
+
+
+/*fotos compañeros de aventura*/
+.Compañeros-de-aventura{
+    width: 300px;
+    
+    height: auto;
+    margin-top: -44px
+}
+
+
+
+/*.................footer........................*/
+footer{
+  
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+footer img{
+    width: 300px;
+}
+
+
+
+/**********************************************************/
+/**********************************************************/
+/**********************************************************/
+/**********************************************************/
+/**********************************************************/
+/**********************************************************/
+/**********************************************************/
+/**********************************************************/
+/**********************************************************/
+
+
+
+
+/*responsive phone*/
+@media(min-width: 630px){
+
+    main p{
+        width: auto;
+        font-size: 1em;
+        font-weight: 280;
+        text-align: center;
+        justify-content: center;
+       
+    }
+
+    main img:hover{
+        transform: scale(1.1); /* aumenta el tamaño en un 20% */
+    }
+
+
+    /*..............................quien soy.............................*/
+
+    /*logo sena quien soy*/
+    main .logo-sena {
+        
+        position: relative;
+        text-align: end;
+
+    }
+
+    main  .logo-sena img{
+        width: 5%;
+        
+    }
+
+    /*container fotos quien soy*/
+    main .container-fotos-tiutlo img{
+        width: 300px;
+        height: 300px;
+        
+    }
+
+    /*titulo quien soy*/
+    main .quien-soy-title{
+        text-align: center;
+        color: #27AE35;
+    }
+
+    /*fotos quien soy*/
+    .container-quien-soy-fotos{
+        display: flex;
+        display: grid;
+        grid-template-columns: repeat(auto-fill,300px);
+        gap: 9px;/*separo las cards*/
+        place-content: center;/*centramos todo el contenido al centro de la pantalla*/
+        width: auto;
+        font-weight: bold;
+        margin-bottom: 30px;
+    
+    }
+
+
+
+
+   
+    /*.............a quien no le ha pasado..................................*/
+    
+    /*fotos quien no le ha pasado*/
+    .container-fotos-quien-ha-pasado
+    {
+        display: flex;
+     
+        grid-template-columns: repeat(auto-fill,300px);
+        gap: 26px;/*separo las cards*/
+        place-content: center;/*centramos todo el contenido al centro de la pantalla*/
+        width: auto;
+        font-weight: bold;
+        
+ 
+    }
+
+    .quien-ha-pasado-titulo{
+        justify-content: center;
+        align-items: center;
+        display: block;
+    }
+
+    .fotos-quien-ha-pasado{
+        width: 300px;
+        height: 300px;
+    
+        margin-top: -44px;
+    }
+    /*container  quien no le ha pasado*/
+        main .container-quien-ha-pasado img{
+        width: 300px;
+        height: 300px;
+        margin-top: 50px;
+        }
+    
+
+
+   /*...................section de clientes y Provedores..........................*/
+
+    main .clientes-proveddores-logo-sena {
+    
+        position: relative;
+        text-align: end;
+
+
+    }
+
+    main .clientes-proveddores-logo-sena img{
+    width: 5%;
+    
+    }
+
+    /*container  clientes - proveedores*/
+    main .container-clientes-proveedores img{
+        width: 300px;
+        height: 300px;
+        margin-top: 50px;
+    
+    }
+
+
+    /*titulo clientes - proveedores*/
+
+    main .container-clientes-proveedores-titulo h2{
+        text-align: center;
+        color: #27AE35;
+    
+ 
+    }
+
+
+    /*fotos clientes - proveedores*/
+    .container-fotos-cliente-provedores
+    {
+        display: flex;
+        display: grid;
+        grid-template-columns: repeat(auto-fill,300px);
+        gap: 9px;/*separo las cards*/
+        place-content: center;/*centramos todo el contenido al centro de la pantalla*/
+        width: auto;
+        font-weight: bold;
+ 
+    }
+
+    /*fotos-proveedores*/
+    .fotos-clientes-proveedores{
+        width: 300px;
+        height: 300px;
+        
+        margin-top: -44px
+    }
+
+    /*...............nuestros servicios..............*/
+
+    main .nuestros-servicios-logo-sena {
+    
+        position: relative;
+        text-align: end;
+    
+    
+    }
+    
+    main  .nuestros-servicios-logo-sena img{
+        width: 5%;
+        
+    }
+    
+    
+    
+    /*container  nuestros servicios*/
+    main .container-nuestros-servicios img{
+        width: 200px;
+        height: 200px;
+        margin-top: 50px;
+        
+    }
+    
+    
+    /*titulo nuestros servicios*/
+    
+    main .nuestros-servicios-tiutlo h2{
+        text-align: center;
+        color: #27AE35;
+        
+     
+    }
+    
+    
+    /*iconos nuestros servicios*/
+    .conatiner-iconos
+    {
+        display: flex;
+        display: grid;
+        grid-template-columns: repeat(auto-fill,300px);
+        gap: 9px;/*separo las cards*/
+        place-content: center;/*centramos todo el contenido al centro de la pantalla*/
+        width: auto;
+        font-weight: bold;
+        
+        text-align: center;
+     
+    }
+    
+    .iconos{
+        width: 300px;
+        height: 300px;
+        
+        margin-top: -44px
+    }
+
+
+
+
+
+
+
+    /*logo sena ubicacion*/
+    main #caben-todo-logo-sena {
+    
+        position: relative;
+        text-align: end;
+
+
+    }
+
+    /*logo sena tamaño*/
+
+    main #caben-todo-logo-sena img{
+        width: 5%;
+    
+    }
+
+
+
+    /*container  donde cabe uno caben todos*/
+    main .container-cabe-uno-caben-todos img{
+        width: 200px;
+        height: 200px;
+        margin-top: 50px;
+        
+    }
+
+
+    /*titulo donde cabe uno caben todos*/
+
+    main .Donde-cabe-uno-caben-todos-titulo h2{
+        text-align: center;
+        color: #27AE35;
+        
+ 
+    }
+
+
+    /*container fotos donde cabe uno caben toods*/
+    .container-fotos-cabe-uno-todos
+    {
+        display: flex;
+        display: grid;
+        grid-template-columns: repeat(auto-fill,300px);
+        gap: 9px;/*separo las cards*/
+        place-content: center;/*centramos todo el contenido al centro de la pantalla*/
+        width: auto;
+        font-weight: bold;
+
+        text-align: center;
+ 
+    }
+
+    .fotos-cabe-uno-todos{
+        width: 300px;
+        height: 300px;
+        
+    margin-top: -44px
+    }
+
+
+    /*..............section En-qué-vamos-.......................*/
+
+    /*logo sena ubicacicon*/
+    main #en-que-vamos-logo-sena {
+    
+        position: relative;
+        text-align: end;
+
+
+    }
+
+
+    /*logo sena tamaño*/
+
+    main #en-que-vamos-logo-sena img{
+        width: 5%;
+    
+    }
+
+
+
+    /*container  donde cabe uno caben todos*/
+    main .container-como-vamos img{
+        width: 249px;
+        height: 350px;
+        margin-top: 50px;
+        
+    }
+
+
+    /*titulo donde cabe uno caben todos*/
+
+    main .En-qué-vamos-titulo h2{
+        text-align: center;
+        color: #27AE35;
+    
+ 
+    }
+
+
+    /*container fotos donde cabe uno caben toods*/
+    .container-pantallazo
+    {
+        display: flex;
+        display: grid;
+        grid-template-columns: repeat(auto-fill,300px);
+        gap: 42px;/*separo las cards*/
+        place-content: center;/*centramos todo el contenido al centro de la pantalla*/
+        width: auto;
+        font-weight: bold;
+    
+        text-align: center;
+ 
+    }
+
+    .pantallazos{
+        width: 300px;
+        
+        height: auto;
+        margin-top: -44px
+    }
+
+
+    /*...........los de a lado.........................*/
+
+    /*logo sena ubicacicon*/
+    main #los-de-lado-logo-sena {
+    
+        position: relative;
+        text-align: end;
+
+
+    }
+
+
+    /*logo sena tamaño*/
+
+    main #los-de-lado-logo-sena img{
+        width: 5%;
+    
+    }
+
+
+
+    /*container  los de a lado*/
+    main .container-Los-del-a-lado-titulo img{
+        width: 200px;
+        height: 200px;
+        margin-top: 50px;
+        margin-top: -7px;
+    
+    }
+
+
+    /*titulo los de a lado*/
+
+    main .Los-del-a-lado-titulo h2{
+        text-align: center;
+        color: #27AE35;
+        
+ 
+    }
+
+
+    /*container los de a lado */
+    .container-competencia
+    {
+        display: grid;
+        grid-template-columns: repeat(auto-fill,300px);
+    
+        place-content: center;
+        width: auto;
+        font-weight: bold;
+    
+        text-align: center;
+    
+    }
+
+    /*fotos los de a lado*/
+    .competencia{
+        width: 300px;
+        height: 137;
+        margin-top: 32px;
+        margin-bottom: 63px;
+    }
+
+
+
+    /*...............y como nos conectamos aqui....................................................*/
+
+    /*logo sena ubicacicon*/
+    main #como-conectamos-logo-sena {
+    
+    position: relative;
+    text-align: end;
+
+
+    }
+
+
+    /*logo sena tamaño*/
+
+    main #como-conectamos-logo-sena img{
+    width: 5%;
+    
+    }
+
+
+
+    /*container  y como nos conectamos*/
+    main .container-Y-cómo-nos-conectamos img{
+        width: 400px;
+        height: 500px
+    
+    }
+
+
+    /*titulo y como nos conectamos*/
+
+    main .titulo-Y-cómo-nos-conectamos h2{
+    text-align: center;
+    color: #27AE35;
+    
+ 
+    }
+
+    .domicilio-24-horas-yopal img
+    {
+        display: flex;
+        place-content: center;/*centramos todo el contenido al centro de la pantalla*/
+        width: auto;
+        font-weight: bold;
+        margin-bottom: 60px;
+        text-align: center;
+ 
+    }
+
+
+
+    /*fotos y como nos conectamos*/
+    .domicilio-24-horas-yopal{
+        width: 400px;
+        
+        height: auto;
+        margin-top: -44px
+    }
+
+
+    /*................las cuentas claras y el chocolate espeso.......................................*/
+
+    /*logo sena ubicacicon*/
+    main #chocolate-logo-sena {
+    
+    position: relative;
+    text-align: end;
+
+
+    }
+
+
+    /*logo sena tamaño*/
+
+    main #chocolate-logo-sena img{
+    width: 5%;
+    
+    }
+
+
+
+    /*container  las cuentas claras y choclate espreo*/
+    main .cuentas-claras-chocolate-espeso img{
+        width: 605px;
+        height: auto;
+        margin-top: 80px;
+    
+    }
+
+
+    /*titulo las cuentas claras y choclate espreo*/
+
+    main .titulo-cuentas-claras-chocolate-espeso h2{
+        text-align: center;
+        color: #27AE35;
+    
+ 
+    }
+
+    /*container fotos cuentas las cuentas claras y choclate espreo*/
+    .cuentas-claras-chocolate-espeso
+    {
+       
+        place-content: center;/*centramos todo el contenido al centro de la pantalla*/
+        width: auto;
+        font-weight: bold;
+        display: block;
+        text-align: center;
+    
+    }
+
+
+
+    /*fotos cuentas-claras-chocolate-espeso*/
+    .container-foto-cuentas{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,936px);
+        gap: 9px;
+        place-content: center;
+        width: auto;
+        font-weight: bold;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+}
+
+
+
+
+/******************************************************/
+/******************************************************/
+/******************************************************/
+/******************************************************/
+/******************************************************/
+/******************************************************/
+/******************************************************/
+
+
+
+/*responsive desktop*/
+
+@media(min-width: 930px){
+    main p{
+        width: auto;
+        font-size: 1em;
+        font-weight: 280;
+        text-align: center;
+        justify-content: center;
+       
+    }
+
+    main img:hover{
+        transform: scale(1.1); /* aumenta el tamaño en un 20% */
+    }
+
+
+    /*..............................quien soy.............................*/
+
+    /*logo sena quien soy*/
+    main .logo-sena {
+        
+        position: relative;
+        text-align: end;
+
+    }
+
+    main  .logo-sena img{
+        width: 5%;
+        
+    }
+
+    /*container fotos quien soy*/
+    main .container-fotos-tiutlo img{
+        width: 300px;
+        height: 300px;
+        
+    }
+
+    /*titulo quien soy*/
+    main .quien-soy-title{
+        text-align: center;
+        color: #27AE35;
+    }
+
+    /*fotos quien soy*/
+    .container-quien-soy-fotos{
+        display: flex;
+        
+        gap: 125px;/*separo las cards*/
+        place-content: center;/*centramos todo el contenido al centro de la pantalla*/
+        width: auto;
+        font-weight: bold;
+        margin-bottom: 30px;
+    
+    }
+
+
+
+
+   
+    /*.............a quien no le ha pasado..................................*/
+    
+    /*fotos quien no le ha pasado*/
+    .container-fotos-quien-ha-pasado
+    {
+        display: flex;
+     
+       
+        gap: 126px;/*separo las cards*/
+        place-content: center;/*centramos todo el contenido al centro de la pantalla*/
+        width: auto;
+        font-weight: bold;
+        
+ 
+    }
+
+    .quien-ha-pasado-titulo{
+        justify-content: center;
+        align-items: center;
+        display: block;
+    }
+
+    .fotos-quien-ha-pasado{
+        width: 300px;
+        height: 300px;
+    
+        margin-top: -44px;
+    }
+    /*container  quien no le ha pasado*/
+        main .container-quien-ha-pasado img{
+        width: 300px;
+        height: 300px;
+        margin-top: 50px;
+        }
+    
+
+
+   /*...................section de clientes y Provedores..........................*/
+
+    main .clientes-proveddores-logo-sena {
+    
+        position: relative;
+        text-align: end;
+
+
+    }
+
+    main .clientes-proveddores-logo-sena img{
+    width: 5%;
+    
+    }
+
+    /*container  clientes - proveedores*/
+    main .container-clientes-proveedores img{
+        width: 200px;
+        height: 200px;
+        margin-top: 50px;
+    
+    }
+
+
+    /*titulo clientes - proveedores*/
+
+    main .container-clientes-proveedores-titulo h2{
+        text-align: center;
+        color: #27AE35;
+    
+ 
+    }
+
+
+    /*fotos clientes - proveedores*/
+    .container-fotos-cliente-provedores
+    {
+        display: flex;
+        display: grid;
+        grid-template-columns: repeat(auto-fill,300px);
+        gap: 9px;/*separo las cards*/
+        place-content: center;/*centramos todo el contenido al centro de la pantalla*/
+        width: auto;
+        font-weight: bold;
+        text-align: center;
+ 
+    }
+
+    /*fotos-proveedores*/
+    .fotos-clientes-proveedores{
+        width: 300px;
+        height: 300px;
+        
+        margin-top: -44px
+    }
+
+    /*...............nuestros servicios..............*/
+
+    main .nuestros-servicios-logo-sena {
+    
+        position: relative;
+        text-align: end;
+    
+    
+    }
+    
+    main  .nuestros-servicios-logo-sena img{
+        width: 5%;
+        
+    }
+    
+    
+    
+    /*container  nuestros servicios*/
+    main .container-nuestros-servicios img{
+        width: 200px;
+        height: 200px;
+        margin-top: 50px;
+        
+    }
+    
+    
+    /*titulo nuestros servicios*/
+    
+    main .nuestros-servicios-tiutlo h2{
+        text-align: center;
+        color: #27AE35;
+        
+     
+    }
+    
+    
+    /*iconos nuestros servicios*/
+    .conatiner-iconos
+    {
+        display: flex;
+        display: grid;
+        grid-template-columns: repeat(auto-fill,300px);
+        gap: 9px;/*separo las cards*/
+        place-content: center;/*centramos todo el contenido al centro de la pantalla*/
+        width: auto;
+        font-weight: bold;
+        
+        text-align: center;
+     
+    }
+    
+    .iconos{
+        width: 300px;
+        height: 300px;
+        
+        margin-top: -44px
+    }
+
+
+    /*logo sena ubicacion*/
+    main #caben-todo-logo-sena {
+    
+    position: relative;
+    text-align: end;
+
+
+    }
+
+    /*logo sena tamaño*/
+
+    main #caben-todo-logo-sena img{
+    width: 5%;
+    
+    }
+
+
+
+    /*container  donde cabe uno caben todos*/
+    main .container-cabe-uno-caben-todos img{
+        width: 400px;
+        height: 400px;
+        margin-top: 50px;
+        
+    }
+
+
+    /*titulo donde cabe uno caben todos*/
+
+    main .Donde-cabe-uno-caben-todos-titulo h2{
+        text-align: center;
+        color: #27AE35;
+        
+ 
+    }
+
+
+    /*container fotos donde cabe uno caben toods*/
+    .container-fotos-cabe-uno-todos
+    {
+        display: flex;
+        gap: 26px;
+    
+    }
+
+    .fotos-cabe-uno-todos{
+        width: 400px;
+        height: 400px;
+        
+        margin-top: -44px
+    }
+
+
+    /*..............section En-qué-vamos-.......................*/
+
+    /*logo sena ubicacicon*/
+    main #en-que-vamos-logo-sena {
+    
+        position: relative;
+        text-align: end;
+
+
+    }
+
+
+    /*logo sena tamaño*/
+
+    main #en-que-vamos-logo-sena img{
+     width: 5%;
+    
+    }
+
+
+
+    /*container  donde cabe uno caben todos*/
+    main .container-como-vamos img{
+        width: 249px;
+        height: 350px;
+        margin-top: 50px;
+    
+    }
+
+
+    /*titulo donde cabe uno caben todos*/
+
+    main .En-qué-vamos-titulo h2{
+        text-align: center;
+        color: #27AE35;
+    
+ 
+    }
+
+
+    /*container fotos donde cabe uno caben toods*/
+    .container-pantallazo
+    {
+        display: flex;
+        display: grid;
+        grid-template-columns: repeat(auto-fill,320px);
+        gap: 42px;/*separo las cards*/
+        place-content: center;/*centramos todo el contenido al centro de la pantalla*/
+        width: auto;
+        font-weight: bold;
+   
+        text-align: center;
+ 
+    }
+
+    .pantallazos{
+        width: 300px;
+        
+        height: auto;
+        margin-top: -44px
+    }
+
+
+    /*...........los de a lado.........................*/
+
+    /*logo sena ubicacicon*/
+    main #los-de-lado-logo-sena {
+    
+        position: relative;
+        text-align: end;
+
+
+    }
+
+
+    /*logo sena tamaño*/
+
+    main #los-de-lado-logo-sena img{
+        width: 5%;
+    
+    }
+
+
+
+    /*container  los de a lado*/
+    main .container-Los-del-a-lado-titulo img{
+        width: 200px;
+        height: 200px;
+        margin-top: 50px;
+        margin-top: -7px;
+        
+    }
+
+
+    /*titulo los de a lado*/
+
+    main .Los-del-a-lado-titulo h2{
+        text-align: center;
+        color: #27AE35;
+    
+ 
+    }
+
+
+    /*container los de a lado */
+    .container-competencia
+    {
+        display: grid;
+        grid-template-columns: repeat(auto-fill,350px);
+    
+        place-content: center;
+        width: auto;
+        font-weight: bold;
+    
+        text-align: center;
+ 
+    }
+
+    /*fotos los de a lado*/
+    .competencia{
+        width: 300px;
+        height: 137;
+        margin-top: 32px;
+        margin-bottom: 63px;
+    }
+
+
+
+    /*...............y como nos conectamos aqui....................................................*/
+
+    /*logo sena ubicacicon*/
+    main #como-conectamos-logo-sena {
+    
+        position: relative;
+        text-align: end;
+
+
+    }
+
+
+    /*logo sena tamaño*/
+
+    main #como-conectamos-logo-sena img{
+        width: 5%;
+    
+    }
+
+
+
+    /*container  y como nos conectamos*/
+    main .domicilio-24-horas-yopal img{
+        
+        width: 1000px;
+        height: auto;
+        margin-top: 35px;
+        transform: none;
+    
+    }
+
+
+    /*titulo y como nos conectamos*/
+
+    
+
+    main .titulo-Y-cómo-nos-conectamos h2{
+        
+        text-align: center;
+        color: #27AE35;
+        
+        
+ 
+    }
+
+    
+
+    .container-foto-domi
+    {
+        display: flex;
+        place-content: center;/*centramos todo el contenido al centro de la pantalla*/
+        width: auto;
+        font-weight: bold;
+        margin-bottom: 60px;
+        text-align: center;
+ 
+    }
+
+
+
+    /*fotos y como nos conectamos*/
+    .domicilio-24-horas-yopal{
+        width: 1000px;
+        
+        height: auto;
+        margin-top: -11px
+    }
+
+
+    /*................las cuentas claras y el chocolate espeso.......................................*/
+
+    /*logo sena ubicacicon*/
+    main #chocolate-logo-sena {
+    
+        position: relative;
+        text-align: end;
+
+
+    }
+
+
+    /*logo sena tamaño*/
+
+    main #chocolate-logo-sena img{
+        width: 5%;
+    
+    }
+
+
+
+    /*container  las cuentas claras y choclate espreo*/
+    main .container-cuentas-claras-chocolate-espeso img{
+        width: 939px;
+        height: auto;
+        margin-top: 35px;
+        transform: none;
+        text-align: center;
+    }
+
+
+    /*titulo las cuentas claras y choclate espreo*/
+
+    main .titulo-cuentas-claras-chocolate-espeso h2{
+        text-align: center;
+        color: #27AE35;
+    
+ 
+    }
+
+    /*container fotos cuentas las cuentas claras y choclate espreo*/
+    .container-foto-cuentas
+    {
+       
+        
+        place-content: center;/*centramos todo el contenido al centro de la pantalla*/
+        width: auto;
+        font-weight: bold;
+        
+        text-align: center;
+    
+    }
+
+
+
+    /*fotos cuentas-claras-chocolate-espeso*/
+    .cuentas-claras-chocolate-espeso{
+        width: 605px;
+        height: auto;
+        margin-top: 80px;
+    }
+
+    
+}
